@@ -132,7 +132,5 @@ def func(message):
         bot.send_message(message.from_user.id, 'Старого пса новым трюкам не научишь! 🐺\n' +
         'Прошу выберите из имеющегося списка 😋')
 
-
-        
 if __name__ == "__main__":
     bot.polling(none_stop=True, interval=1)
