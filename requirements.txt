@@ -2,3 +2,4 @@ telebot
 bs4
 requests==2.27.1
 SpeechRecognition==3.8.1
+ffmpeg==1.4
