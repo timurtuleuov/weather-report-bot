@@ -1,0 +1,8 @@
+telebot
+bs4
+requests
+os
+speech_recognition
+uuid
+time
+random
