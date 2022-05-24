@@ -1,5 +1,4 @@
 import telebot
-from telebot import types
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -104,11 +103,11 @@ def voice_processing(message):
 
 @bot.message_handler(commands=['start']) #создаем команду
 def start(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    btn1 = types.KeyboardButton("🌏 Прогноз погоды")
-    btn2 = types.KeyboardButton("🍅 Помодоро")
-    btn3 = types.KeyboardButton("🤡 Анекдот")
-    btn4 = types.KeyboardButton("🤑 Курс валют")
+    markup = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
+    btn1 = telebot.types.KeyboardButton("🌏 Прогноз погоды")
+    btn2 = telebot.types.KeyboardButton("🍅 Помодоро")
+    btn3 = telebot.types.KeyboardButton("🤡 Анекдот")
+    btn4 = telebot.types.KeyboardButton("🤑 Курс валют")
     markup.row(btn1, btn2)
     markup.row(btn3, btn4)
     # markup.add(btn1, btn2, btn3, btn4)
