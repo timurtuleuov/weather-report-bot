@@ -1,7 +1,7 @@
 telebot
 bs4
 requests==2.27.1
-speech_recognition
+SpeechRecognition==3.8.1
 uuid
 time
 random
