@@ -30,7 +30,7 @@ r = sr.Recognizer()
 
 print("Работаем")
 
-TOKEN = '5360419753:AAFdMc5-n1bAu4IePqT3K_P3fJwE4coY_Ow'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 def currency_rate(message):
